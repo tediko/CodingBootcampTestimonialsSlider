@@ -57,6 +57,7 @@
 
 .slider__image img {
     display: block;
+    border-radius: 5px;
 }
 
 .slider__controls {
