@@ -10,12 +10,25 @@
 }
 
 /* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-size: 32px;
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../assets/img/pattern-curve.svg'), url('../assets/img/pattern-bg.svg');
+    background-repeat: no-repeat;
+    background-position: bottom left, center right;
     font-family: 'Inter', sans-serif;
+    min-height: 100vh;
 }
 
 /* Utilities */
