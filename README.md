@@ -5,6 +5,7 @@
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
+
 [PROJECT LIVE PREVIEW](https://bootcamptestimonialsslider-tediko.netlify.app/)
 
 [Frontend Mentor](https://www.frontendmentor.io) - check it for more challenges.
