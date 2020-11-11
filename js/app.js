@@ -14,6 +14,7 @@ let references = [
         image: 'assets/img/image-john.jpg'
     }
 ]
+
 const sliderWrapper = document.querySelector('.slider__wrapper');
 const buttons = document.querySelectorAll('[data-btn]');
 const reference = document.querySelector('[data-ref]');
@@ -50,10 +51,10 @@ const slider = (element) => {
 }
 
 const removeAnimation = () => {
-    reference.style.animation = ``;
-    image.style.animation = ``;
-    name.style.animation = ``;
-    title.style.animation = ``;
+    reference.style.animation = `none`;
+    image.style.animation = `none`;
+    name.style.animation = `none`;
+    title.style.animation = `none`;
 }
 
 buttons.forEach(button => {
