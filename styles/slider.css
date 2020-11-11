@@ -26,6 +26,7 @@
     width: 115%;
     line-height: 1.38rem;
     transition: font-size 250ms ease-in;
+    animation: refSlide 1000ms 1;
 }
 
 .slider__reference-text::before {
@@ -39,6 +40,7 @@
     display: flex;
     font-size: 0.625rem;
     margin-top: 40px;
+    animation: authorSlide 1000ms 1;
 }
 
 .slider__reference-name {
@@ -54,6 +56,7 @@
 
 .slider__image {
     position: relative;
+    animation: imgSlide 1000ms 1;
 }
 
 .slider__image img {
