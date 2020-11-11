@@ -98,6 +98,7 @@
 
 .slider__btn--left, 
 .slider__btn--right {
+    pointer-events: none;
     transition: background 250ms ease-in,
     opacity 250ms ease-in;
 }
