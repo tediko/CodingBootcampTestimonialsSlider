@@ -77,6 +77,10 @@
     cursor: pointer;
 }
 
+.slider__btn svg {
+    pointer-events: none;
+}
+
 .slider__btn--left {
     padding: 18px 21.75px 18px 21.75px;
     border-top-left-radius: 50%;
